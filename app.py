@@ -23,3 +23,12 @@ filtered_data = data[data['Jahr'] == year_to_filter]
 # Daten visualisieren
 st.write(f"Bevölkerungsdaten für das Jahr {year_to_filter}")
 st.bar_chart(filtered_data[['Postleitzahl', 'Total']].set_index('Postleitzahl'))
+
+
+
+
+
+
+
+
+
